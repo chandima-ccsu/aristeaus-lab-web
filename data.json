@@ -1,0 +1,43 @@
+{
+  "research": [
+    {
+      "title": "Immersive UAV-based inspections",
+      "description": "Immersive real-time AI-assisted video annotation for mixed-reality UAV defect inspection lets operators label drone video in mixed-reality headsets. Edge AI highlights defects like cracks or corrosion with overlays, enabling quick confirmation or correction via gesture or voice and reducing post-flight review time.",
+      "open": true
+    },
+    {
+      "title": "VLM on RPi",
+      "description": "Implement small-scale VLMs on resource-constrained Raspberry Pis to support real-time decision making in the field. These models process camera input for applications in defense (surveillance, threat assessment) and agriculture (crop monitoring, pest detection)."
+    },
+    {
+      "title": "Thermal Sensing",
+      "description": "Thermal camera images will be fed into a DINOv3 AI model to enable heat detection on buildings. The model processes thermal data to identify temperature anomalies and heat signatures, supporting applications such as building energy assessment, insulation fault detection, and structural monitoring."
+    }
+  ],
+  "people": [
+    {
+      "name": "Chandima Fernando",
+      "role": "Principal Investigator",
+      "image": "images/chandima.jpg",
+      "bio": "Research focuses on efficient AI and LLM-enabled vision models for resource-constrained autonomous systems, optimized for edge deployment under tight power, compute, and latency budgets. Priority applications include defense (autonomous sensing, target recognition, and resilient navigation), multi-agent systems (coordinated perception and decision-making across robot teams), and novel control algorithms for large-scale facilities (real-time adaptive control of complex infrastructure using onboard vision and language models)."
+    },
+    {
+      "name": "Rumman Shahzad",
+      "role": "Graduate Student",
+      "image": "images/rumman.jpg",
+      "bio": "UAV-based infrastructure inspections still require operators to simultaneously pilot the drone, control the camera, and identify defects, increasing workload and reducing efficiency. While AI can improve defect detection and Mixed Reality can enhance user interaction, their combined use for real-time inspection remains limited. Therefore, there is a need for an integrated framework that combines real-time AI-assisted defect detection with immersive camera control to support more effective and interactive remote inspections."
+    },
+    {
+      "name": "Xavious Leal",
+      "role": "Undergraduate Researcher",
+      "image": "images/xavious.jpg",
+      "bio": "Assess performance of small-scale VLM models on resource-constrained Raspberry Pi devices."
+    },
+    {
+      "name": "Niall Geoghegan",
+      "role": "Undergraduate Researcher",
+      "image": "images/xavious.jpg",
+      "bio": "Research on applying DINOv3 AI model on thermal images to detect heat signatures in buildings."
+    }
+  ]
+}
